@@ -82,7 +82,7 @@ class PracticalExperience extends React.Component {
     }
 
     return (
-      <div>
+      <div className="component-item">
         {renderingMode}
         {button}
       </div>

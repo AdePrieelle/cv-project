@@ -2,8 +2,9 @@ import React from "react";
 
 const EducationalExperienceEditModeRendering = (props) => {
   return (
-    <div>
-        <div className="educational-experience">
+    <div className="component">
+        <div className="component-header">Education</div>
+        <div className="component-props">
           <div className="label-input">
             <label htmlFor="school-name">School name</label>
             <input type="text" id="school-name" onChange={props.handleChangeInputSchoolName} value={props.inputSchoolName}></input>

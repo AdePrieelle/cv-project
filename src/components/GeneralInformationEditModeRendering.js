@@ -2,8 +2,9 @@ import React from "react";
 
 const GeneralInformationEditModeRendering = (props) => {
   return (
-    <div>
-        <div className="general-information">
+    <div className="component">
+        <div className="component-header">General information</div>
+        <div className="component-props">
           <div className="label-input">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" onChange={props.handleChangeInputName} value={props.inputName}></input>

@@ -2,8 +2,9 @@ import React from "react";
 
 const PracticalExperienceEditModeRendering = (props) => {
   return (
-    <div>
-        <div className="practical-experience">
+    <div className="component">
+        <div className="component-header">Work experience</div>
+        <div className="component-props">
           <div className="label-input">
             <label htmlFor="company-name">Company name</label>
             <input type="text" id="company-name" onChange={props.handleChangeInputCompanyName} value={props.inputCompanyName}></input>

@@ -1,3 +1,71 @@
 body {
-  color: green;
+  color: black;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  // background-color: rgb(219, 219, 219);
+  // background-color: #007bff;
+  background-color: #560068;
+  color: white;
+}
+.components-wrapper {
+  width: 300px;
+  margin: 30px auto;
+  .component-item {
+    margin-bottom: 30px;
+  }
+  .component-header {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5px;
+    padding: 10px;
+  }
+  .component-props {
+    margin: 10px 0;
+    .label-input {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      input {
+        margin-bottom: 20px;
+        padding: 10px 4px;
+        background-color: white;
+        border: 1px solid rgb(228, 228, 228);
+        border-radius: 4px;
+        &:focus {
+          box-shadow: 0 0 2px #007bff;
+        }
+      }
+    }
+    .form-label {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .props-value {
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.submit-edit-button {
+  width: 100%;
+  padding: 10px 0px;
+  border: 0;
+  border-radius: 4px;
+  // background-color: rgb(59, 126, 226);
+  background-color: #560068;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
