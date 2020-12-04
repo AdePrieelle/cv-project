@@ -4,7 +4,6 @@ import SubmitButton from "./SubmitButton";
 import GeneralInformationEditModeRendering from "./GeneralInformationEditModeRendering";
 import GeneralInformationDisplayModeRendering from "./GeneralInformationDisplayModeRendering";
 
-
 class GeneralInformation extends React.Component {
   constructor(props) {
     super(props);

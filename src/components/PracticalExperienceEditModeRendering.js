@@ -15,7 +15,8 @@ const PracticalExperienceEditModeRendering = (props) => {
           </div>
           <div className="label-input">
             <label htmlFor="job-tasks">Job tasks</label>
-            <input type="text" id="job-tasks" onChange={props.handleChangeInputJobTasks} value={props.inputJobTasks}></input>
+            {/* <input type="text" id="job-tasks" onChange={props.handleChangeInputJobTasks} value={props.inputJobTasks}></input> */}
+            <textarea id="job-tasks" onChange={props.handleChangeInputJobTasks} value={props.inputJobTasks}></textarea>
           </div>
           <div className="label-input">
             <label htmlFor="job-date">Job date</label>

@@ -4,7 +4,6 @@ import SubmitButton from "./SubmitButton";
 import EducationalExperienceEditModeRendering from "./EducationalExperienceEditModeRendering";
 import EducationalExperienceDisplayModeRendering from "./EducationalExperienceDisplayModeRendering";
 
-
 class EducationalExperience extends React.Component {
   constructor(props) {
     super(props);
